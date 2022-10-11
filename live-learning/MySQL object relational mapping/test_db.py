@@ -1,4 +1,5 @@
 #/usr/bin/python3
+from flask_sqlalchemy import SQLAlchemy
 import sqlalchemy
 from sqlalchemy import Column, Integer, Strin
 from sqlalchemy.ext.declarative import declarative_base
